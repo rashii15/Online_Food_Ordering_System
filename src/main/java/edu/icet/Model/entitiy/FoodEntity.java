@@ -14,6 +14,6 @@ public class FoodEntity {
     @Id
     private String  id;
     private String name;
-    private String availableQuantity;
+    private int availableQuantity;
     private Double unitPrice;
 }

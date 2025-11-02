@@ -11,6 +11,6 @@ import lombok.*;
 public class FoodDTO {
     private String id;
     private String name;
-    private String availableQuantity;
+    private int availableQuantity;
     private Double unitPrice;
 }

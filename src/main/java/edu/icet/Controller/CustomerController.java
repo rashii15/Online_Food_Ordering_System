@@ -17,12 +17,12 @@ public class CustomerController {
     CustomerService customerService;
 
 
-    @GetMapping("/all")
+    @GetMapping("/customers/all")
     public List<CustomerDTO> getAllDetails(){
         return customerService.getAllDetails();
     }
 
-    @PostMapping("/add")
+    @PostMapping("/customers/add")
     public void add(@RequestBody CustomerDTO customer){
         customerService.add(customer);
     }
