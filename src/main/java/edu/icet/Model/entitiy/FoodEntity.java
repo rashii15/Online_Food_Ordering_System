@@ -10,11 +10,10 @@ import lombok.*;
 @NoArgsConstructor
 @ToString
 @Entity
-public class CustomerEntity {
-
+public class FoodEntity {
     @Id
-    private String id;
+    private String  id;
     private String name;
-    private String contact;
-    private String address;
+    private String availableQuantity;
+    private Double unitPrice;
 }
